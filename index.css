@@ -1,0 +1,127 @@
+/* Signup form CSS code*/
+*{
+    font-family: 'Times New Roman', Times, serif ;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#ffffff;
+}
+.container{
+    background-color: #fff;
+    padding: 20px;
+    padding-top: 5px;
+    box-shadow: 0 0 128px 0 rgba(0,0,0,0.5);
+    border-radius: 20px;
+    width: 280px;
+}
+.form_signup{
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom:10px ;
+
+}
+.login_details{
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+.error_text{
+    margin-top: 10px;
+    padding: 8px ;
+    color:#721c24;
+    background-color: #ffcdcd;
+    text-align: center;
+    display: none;
+}
+.input input{
+    height: 25px;
+    width: 220px;
+}
+
+.user_search{
+    color: #000;
+    width: 25px;
+    height: 25px;
+}
+.fa .active{
+    color: green;
+}
+.link{
+    margin-top: 5px;
+    margin-left: 10px;
+    text-align: center;
+}
+.submit input:hover{
+    background-color: green;
+    color: #fff;
+}
+.submit input{
+    align-items: center;
+    height: 30px;
+    font-size: 20px;
+    width: 250px;
+    background-color: #71e160;
+
+}
+
+/* user interface css */
+.logout{
+    text-decoration: none;
+    background-color: #414141;
+    border-radius: 5px;
+    padding: 8px;
+    color: white;
+}
+.logout:hover{
+    text-decoration:underline;
+}
+.users{
+    padding:8px;
+}
+.users header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0px;
+}
+.container img{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    
+}
+.detail{
+    font-size: 15px;
+    display: inline-block;
+    padding-left: 5px;
+}
+.active{
+    margin-top: 0px;
+    font-size: 12px;
+}
+.users_list{
+    max-height: 60vh;
+    overflow-y: auto;
+
+}
+
+.users_list a .content span{
+    color: black;
+    font-weight: bolder;
+}
+.users_list a .content p{
+    color: black;
+}
+
+.users_list::-webkit-scrollbar{
+   width: 0px ;
+}
+
+.users_list a .content img{
+    width: 40px;
+    height: 40px;
+}

@@ -1,0 +1,48 @@
+
+.area{
+    max-height: 70vh;
+    overflow-y: auto;
+}
+.back{
+    text-decoration: none;
+    margin-top: 0%;
+  }
+.message{
+    display: flex;
+    border-radius: 15px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    word-wrap: break-word;
+
+}
+.incoming{
+    background-color: #b4dcb4;
+    margin-left: 40px;
+    border-top-right-radius: 0px;
+}
+
+.outgoing{
+    background-color:#e0dfdf ;
+    margin-right: 40px;
+    border-top-left-radius: 0px;
+
+}
+
+.typing {
+    display: flex;
+    background-color: #ffffff;
+    height: 50px;
+}
+input{
+    height:40px;
+    font-size: 18px;
+    border-radius: 12px;
+    border-color: #e0dfdf;
+}
+
+button{
+    height:45px ;
+    background-color: #ffffff;
+    border: none;
+}
+
